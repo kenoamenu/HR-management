@@ -1,0 +1,45 @@
+/* styles.css */
+body {
+    background-image: url('img/J0178460.JPG');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.table {
+    margin: 20px auto;
+    border: none; /* Remove default border */
+    width: 50%;
+    height: auto; /* Adjust height as needed */
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.form-check-label {
+    margin-left: 10px;
+}
